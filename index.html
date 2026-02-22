@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        /* This is the CSS - it makes things look pretty */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            width: 100%;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background: white;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Created with a little help from Gemini</p>
+    </header>
+
+    <div class="container">
+        <h2>About This Page</h2>
+        <p>This is a simple, single-page website template. It uses <strong>HTML</strong> for the structure and <strong>CSS</strong> for the styling.</p>
+        
+        <h3>Why this works:</h3>
+        <ul>
+            <li>It's responsive (looks good on phones).</li>
+            <li>It's clean and easy to read.</li>
+            <li>It's a perfect canvas for your ideas.</li>
+        </ul>
+
+        <button onclick="alert('Hello! You clicked the button.')">Click Me!</button>
+    </div>
+
+</body>
+</html>
